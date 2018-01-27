@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import TeslaBattery from './containers/TeslaBattery';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <TeslaBattery />
       </div>
     );
   }
