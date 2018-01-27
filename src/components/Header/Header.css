@@ -1,4 +1,9 @@
 .header {
-  text-align: center;
   background: #222;
+  text-align: center;
+}
+
+.header img {
+  width: 100px;
+  height: 13px;
 }

@@ -3,7 +3,7 @@ import './Header.css';
 import logoUrl from '../../assets/logo.svg';
 const Header = () => (
   <div className="header">
-    <image src={logoUrl} alt="Tesla" />
+    <img src={logoUrl} alt="Tesla" />
   </div>
 )
 export default Header;
